@@ -1,0 +1,96 @@
+#mainContent {
+	/*padding-top: 116px;*/
+	font-family: 'Unkempt', sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#mainContent {
+		padding-top: 0px;
+	}
+}
+
+#ipad-text {
+	padding-left: 15px;
+	margin-top: -15px;
+	color: #0d1f62;
+	font-size: small;
+}
+
+@media (max-width: 767px) {
+	#mainContent {
+		padding-top: 0px;
+	}
+	#ipad-text {
+		margin-top: 0px;
+	}
+
+}
+
+/*.image-link { 
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out; 
+}
+.image-link:hover { 
+    -moz-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+}*/
+
+.image-link:hover { 
+	filter: contrast(110%); 
+    -webkit-filter: contrast(110%); 
+    -moz-filter: contrast(110%); 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#intro-frame {
+	z-index: 10;
+}
+
+#intro-slider {
+	padding-bottom: 30px;
+}
+
+#home-links {
+	background: #658f3a;
+	width: 100%;
+	
+}
+
+img.hm-frame {
+    position: absolute;
+    z-index: 1000;
+    width: 92%;
+}
+
+@media (min-width: 1200px) {
+	div.cycle-slideshow {
+		position: relative;
+		overflow: hidden;
+		margin-left: 44px;
+		width: 86%;
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	div.cycle-slideshow {
+		position: relative;
+		overflow: hidden;
+		margin-left: 44px;
+		width: 86%;
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	div.cycle-slideshow {
+		position: relative;
+		overflow: hidden;
+		margin-left: 35px;
+		width: 86%;
+		margin-top: 23px;
+	}
+}	

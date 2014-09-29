@@ -1,0 +1,31 @@
+#mainContent {
+	padding-top: 116px;
+	font-family: 'Unkempt', sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#mainContent {
+		padding-top: 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	#mainContent {
+		padding-top: 0px;
+	}
+}
+
+/*.image-link { 
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out; 
+}
+.image-link:hover { 
+    -moz-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+}*/
+
+.image-link:hover { 
+	filter: contrast(110%); 
+    -webkit-filter: contrast(110%); 
+    -moz-filter: contrast(110%); 
+}

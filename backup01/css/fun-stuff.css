@@ -1,0 +1,30 @@
+body {
+	background-color: #9EC27D;
+	color: #3A5117;
+
+}
+
+.color-thumb {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#email-link {
+	color: #A23822;
+	text-decoration: none;
+}
+
+#email-link:hover {
+	color: #75291b;
+	text-decoration: none;
+}
+
+hr {
+	color: #8CB16A;
+	border-color: #8CB16A;
+	background-color: #8CB16A;
+}
+
+#ffs-picture {
+	padding-top: 10px;
+}

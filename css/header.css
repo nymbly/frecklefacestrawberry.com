@@ -1,0 +1,159 @@
+.navbar-inner{
+	background: url(../images/724/hdr-bar_724.png) top left;
+	background-repeat: no-repeat;
+	border: none !important;
+	filter: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	min-height: 122px;
+	background-size: 100% 122px;
+}
+
+#header-bar {
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: large;
+	color: #9EC27D;
+}
+
+.nav a{
+	color: #9EC27D !important;
+}
+
+.nav a:hover {
+	color: #A82819 !important;
+}
+
+.top-nav-left a{
+	color: #3A5117!important;
+}
+
+.top-nav-right a{
+	color: #3A5117!important;
+}
+.top-nav-left a:hover {
+	color: #9EC27D !important;
+}
+.top-nav-right a:hover {
+	color: #9EC27D !important;
+}
+
+.icon-bar {
+	background-color: #ce7a7d !important;
+	height: 4px !important;
+	width: 24px !important;
+}
+
+.navbar-toggle {
+	background-color: transparent !important;
+	color: #FDDE8A !important;
+	background-image: none !important;
+	float: left !important;
+	margin-top: 35px !important;
+	left: 100px !important;
+	position: absolute !important;
+}
+
+.ff-btn {
+	z-index: 9999 !important;
+}
+
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:active,
+.navbar .navbar-toggle.active,
+.navbar .navbar-toggle.disabled,
+.navbar .navbar-toggle[disabled] {
+  color: transparent !important;
+  background-color: transparent !important;
+  *background-color: transparent !important;
+}
+
+.navbar .navbar-toggle:active,
+.navbar .navbar-toggle.active {
+  background-color: #A67BC5 \9 !important;
+}
+
+
+#super-inner{
+	padding-top: 10px;
+}
+
+#logo-block {
+	margin-top: -15px;
+}
+
+
+/* This is the size when the links drop down, but before tablet size */
+@media (min-width: 979px) and (max-width: 991px) {	
+	#links {
+		margin-left: -15px;
+		margin-top: 140px;
+	}
+	
+	#super-inner {
+		padding-top: 0px;
+	}
+}
+
+/* iPad and smaller */
+@media (max-width: 979px) {
+	.nav {
+		background-color: #3A5117 !important;
+		}
+
+	.nav a:hover {
+		background-color: #9EC27D !important;
+		}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.navbar { 
+		margin-left: -20px !important; 
+		margin-right: -10px !important;
+		}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+		  
+	.navbar { 
+		margin-left: -20px !important; 
+		margin-right: -10px !important; 
+		}
+}
+
+img#logo {
+	/*width: 25% !important;*/
+}
+
+ul.top-nav-left, ul.top-nav-right {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.top-nav-left li {
+	float: left;
+}
+
+ul.top-nav-right li {
+	float: right;
+}
+
+ul.top-nav-left>li>a {
+	display: block;
+	margin-right: 50px;
+}
+
+ul.top-nav-right>li>a {
+	display: block;
+	margin-left: 50px;
+}
+
+.top-navigation {
+	margin-top: 44px;
+}

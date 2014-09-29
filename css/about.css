@@ -1,0 +1,36 @@
+body {
+	background-color: #89b65d;
+}
+
+.about-text {
+	font-family: 'McLaren', sans-serif !important;
+    font-size: 14px;
+	line-height: 22px;
+	color: #0d1f62;
+}
+
+h1,
+h4 {
+    font-family: 'Love Ya Like A Sister', cursive !important;
+}
+
+.visit-site{
+    font-family: 'Love Ya Like A Sister', cursive !important;
+    font-size: 30px;
+	color: #A31D12;
+	text-decoration: none;
+}
+
+.visit-site:hover{
+    font-family: 'Love Ya Like A Sister', cursive !important;
+    font-size: 30px;
+	color: #4d130e;
+	text-decoration: none;
+}
+
+hr {
+	color: #0d1f62;
+	border-color: #0d1f62;
+	background-color: #0d1f62;
+}
+

@@ -1,0 +1,99 @@
+.navbar-inner{
+	background: url(../img/1170-resized/hdr-art.png) repeat-x;
+	border: none !important;
+	filter: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+    box-shadow: none !important;
+    min-height:116px;
+}
+
+#header-bar {
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: large;
+	color: #588024
+}
+
+.nav a{
+	color: #3A5117 !important;
+}
+
+.nav a:hover {
+	color: #A82819 !important;
+}
+
+.icon-bar {
+	background-color: #3A5117 !important;
+}
+
+.btn-navbar {
+	background-color: #FDDE8A !important;
+	color: #FDDE8A !important;
+	background-image: none !important;
+}
+
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+  color: #FDCD52 !important;
+  background-color: #FDCD52 !important;
+  *background-color: #FDCD52 !important;
+}
+
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active {
+  background-color: #A67BC5 \9 !important;
+}
+
+
+#super-inner{
+	padding-top: 10px;
+}
+
+#logo-block {
+	margin-top: -15px;
+}
+
+
+/* This is the size when the links drop down, but before tablet size */
+@media (min-width: 979px) and (max-width: 1428px) {	
+	#links {
+		margin-left: -15px;
+	}
+	
+	#super-inner {
+		padding-top: 0px;
+	}
+}
+
+/* iPad and smaller */
+@media (max-width: 979px) {
+	.nav {
+		background-color: #FDDE8A !important;
+		}
+
+	.nav a:hover {
+		background-color: #FDCD52 !important;
+		}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.navbar { 
+		margin-left: -20px !important; 
+		margin-right: -10px !important;
+		}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+		  
+	.navbar { 
+		margin-left: -20px !important; 
+		margin-right: -10px !important; 
+		}
+}

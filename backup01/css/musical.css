@@ -1,0 +1,17 @@
+#musical-text {
+	font-size: 22px;
+	line-height: 24px;
+	color: #3A5117;
+}
+
+body {
+	background-color: #01B6D9;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}

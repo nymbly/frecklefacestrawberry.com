@@ -1,0 +1,125 @@
+body {
+	background-color: #89b65d;
+}
+
+#book-text {
+	font-family: 'McLaren', sans-serif !important;
+    font-size: 14px;
+	line-height: 22px;
+	color: #0d1f62;
+}
+
+h1,
+h4 {
+    font-family: 'Love Ya Like A Sister', cursive !important;
+}
+
+.individual-book {
+	font-size: 22px;
+	line-height: 24px;
+	color: #3A5117;
+}
+
+.buy-now, .buy-now-mobile{
+    font-family: 'Love Ya Like A Sister', cursive !important;
+    font-size: 40px;
+	font-weight: bold;
+	color: #ffd569;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.buy-now:hover, .buy-now-mobile:hover{
+	color: #e7b638;
+	text-decoration: none;
+}
+
+
+hr {
+	color: #0d1f62;
+	border-color: #0d1f62;
+	background-color: #0d1f62;
+}
+
+.anchor{display: block; position: relative; top: -20px; visibility: hidden;}
+
+.book-thumb {
+	padding: 5px;
+}
+
+@media (min-width: 979px) {
+	.anchor{display: block; position: relative; top: -140px; visibility: hidden;}	
+}
+
+.bookstore-link-img {
+	padding: 5px;
+}
+
+.individual-book {
+	position: relative !important;
+}
+
+/* iPad */
+@media (min-width: 767px) and (max-width: 979px) {
+	.arrow:after {
+	border-right-color: #FDDE8A !important;
+	}
+
+	.popover {
+	position: absolute;
+	top:380px !important;
+	background-color: #FDDE8A !important;
+	}
+	
+	#desktop-popover1+.popover {
+		
+	}
+	
+	#desktop-popover2+.popover {
+		top:220px !important;
+	}
+	
+	#desktop-popover3+.popover {
+		top:300px !important;
+	}
+}
+
+/* iPhone */
+@media (max-width: 767px) { 
+	.arrow:after {
+	border-bottom-color: #FDDE8A !important;
+	}
+	
+	.popover {
+	position: relative;
+	top: 0px !important;
+	background-color: #FDDE8A !important;
+	}
+}
+
+/* Desktop */
+@media (min-width: 979px) {
+	.arrow:after {
+	border-right-color: #FDDE8A !important;
+	}
+
+	.popover {
+	position: absolute;
+	top:200px !important;
+	background-color: #FDDE8A !important;
+	}
+	
+	#desktop-popover1+.popover {
+		
+	}
+	
+	#desktop-popover2+.popover {
+		top:55px !important;
+	}
+	
+	#desktop-popover3+.popover {
+		top:120px !important;
+	}
+
+}
+

@@ -1,0 +1,32 @@
+#mobile-text {
+	font-size: 22px;
+	line-height: 24px;
+	color: #3A5117;
+}
+
+body {
+	background-color: #C493E9;
+}
+
+#app-store-div {
+	white-space:nowrap;
+}
+
+#monster {
+	padding-top: 60px;
+}
+
+#app-store {
+	padding: 10px;
+}
+
+#nymbly-link{
+	font-weight: bold;
+	color: #A31D12;
+	text-decoration: none;
+}
+
+#nymbly-link:hover{
+	color: #4d130e;
+	text-decoration: none;
+}

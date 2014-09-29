@@ -1,0 +1,63 @@
+body {
+	background-color: #F98080;
+}
+
+#book-text {
+	font-size: 22px;
+	line-height: 24px;
+	color: #3A5117;
+}
+
+.individual-book {
+	font-size: 22px;
+	line-height: 24px;
+	color: #3A5117;
+}
+
+.buy-now, .buy-now-mobile{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffd569;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.buy-now:hover, .buy-now-mobile:hover{
+	color: #e7b638;
+	text-decoration: none;
+}
+
+
+hr {
+	color: #EE6864;
+	border-color: #EE6864;
+	background-color: #EE6864;
+}
+
+.anchor{display: block; position: relative; top: -20px; visibility: hidden;}
+
+.book-thumb {
+	padding: 5px;
+}
+
+@media (min-width: 979px) {
+	.anchor{display: block; position: relative; top: -140px; visibility: hidden;}	
+}
+
+.bookstore-link-img {
+	padding: 5px;
+}
+
+.popover {
+	position: relative;
+	top: -190px !important;
+	background-color: #FDDE8A !important;
+}
+
+.buy-now > .arrow:after {
+	border-right-color: #FDDE8A !important;
+}
+
+.buy-now > .arrow:after {
+	border-top-color: #FDDE8A !important;
+}

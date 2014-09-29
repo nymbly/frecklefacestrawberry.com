@@ -1,0 +1,36 @@
+body {
+	background-color: #89b65d;
+	color: #0d1f62;
+
+}
+
+h1,
+h4 {
+    font-family: 'Love Ya Like A Sister', cursive !important;
+    color: #0d1f62;
+}
+
+.color-thumb {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#email-link {
+	color: #A23822;
+	text-decoration: none;
+}
+
+#email-link:hover {
+	color: #75291b;
+	text-decoration: none;
+}
+
+hr {
+	color: #89b65d;
+	border-color: #89b65d;
+	background-color: #89b65d;
+}
+
+#ffs-picture {
+	padding-top: 10px;
+}

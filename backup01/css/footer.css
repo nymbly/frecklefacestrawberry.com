@@ -1,0 +1,51 @@
+#footer {
+	background-color: #3A5117;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: small;
+	color: #9EC27D;
+	height:60px;
+	padding-top: 5px;
+}
+
+#footer a {
+	color: #9EC27D;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color: #588024;
+	text-decoration:none;
+}
+
+.legal {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+ 
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+#push, footerInclude {
+    height: 60px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.legal {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	#rights-reserved {
+		font-size: x-small;
+	}
+}

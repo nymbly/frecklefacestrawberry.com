@@ -1,0 +1,57 @@
+<div class="navbar" id="header-bar">
+  <div class="navbar-inner row">
+	<div id="super-inner">
+	    <div class="col-md-4 visible-md visible-lg top-navigation">
+	      <ul class="top-nav-right">
+		<li><a href="mobile-app.html">Apps</a></li>
+		<li><a href="books.html">Books</a></li>
+		<li><a href="about.html">About</a></li>
+	      </ul>
+	    </div>
+	    <div class="col-md-4 col-sm-4 col-sm-offset-4 col-md-offset-0">
+	      <center>
+	      <a href="/"><img style="max-width: 80%" class="img-responsive" id="logo" src="images/724/ffs_logo.png"/></a>
+	      </center>
+	    </div>
+	    <div class="col-md-4 visible-md visible-lg top-navigation">
+	      <ul class="top-nav-left">
+		<li><a href="musical.html">Musical</a></li>
+		<li><a href="fun-stuff.html">Fun Stuff</a></li>
+	      </ul>
+	    </div>
+  	</div>
+
+	    <div>
+	      <button type="button" class="navbar-toggle" id="menu-button">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    </div>
+	    <div id="links" class="nav-collapse collapse">
+			<ul class="nav">
+				<li><a href="about.html">About</a></li>
+				<li><a href="books.html">Books</a></li>
+				<li><a href="mobile-app.html">Apps</a></li>				
+				<li><a href="musical.html">Musical</a></li>
+				<li><a href="fun-stuff.html">Fun Stuff</a></li>
+			    <!--<li><a href="https://www.facebook.com/realfreckleface" target="_blank"><img src="img/1170-resized/facebook-btn.png"/></a></li>
+			    <li><a href="https://twitter.com/realfreckleface" target="_blank"><img src="img/1170-resized/twitter-btn.png"/></a></li>-->
+			</ul>
+	    </div>
+  </div>
+</div>
+<script>
+$('button#menu-button').click(function() {
+    var classes = $('#links').attr('class').split(/\s+/);
+
+    $.each(classes, function(index,value) {
+        if(value == "in") {
+            $('#links').removeClass("in");
+        } else {
+            $('#links').addClass("in");
+        }
+    });
+});
+</script>
