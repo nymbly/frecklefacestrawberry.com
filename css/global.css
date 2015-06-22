@@ -1,0 +1,406 @@
+/* LAYOUT */
+
+body {
+	background-color: #7ed3dd;
+	font-family: 'Open Sans', sans-serif;
+	color: #26155f;
+}
+
+.pad-top-20 {
+	padding-top: 20px;
+}
+
+.pad-bot-20 {
+	padding-bottom: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a.visit-site {
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #d63330;
+}
+
+
+
+/* HEADER */
+
+#headerInclude{
+	font-family: 'Unkempt', sans-serif;
+}
+
+.logo img {
+	position: absolute;
+	top: 10px;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+}
+
+header {
+	background-image: url('../images/banner.png');
+    background-size: 100% 160px;
+    background-repeat: no-repeat;
+    height: 180px;
+    position: relative;
+}
+
+#main-menu {
+	padding-top: 60px;
+	font-size: 24px;
+}
+
+
+
+/* NAV STUFF */
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+	nav .container {
+		width: auto !important;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	nav .container {
+		width: auto;
+	}
+
+	#main-menu {
+		font-size: 18px;
+	}
+}
+
+.navbar-toggle {
+	font-size: xx-large;
+	color: rgba(31,28,95,.5);
+	margin-top: 55px;
+}
+
+.nav>li>a {
+	color: #251a62;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+}
+
+.nav-left {
+	float: left;
+	text-align: left;
+	width: 48%;
+}
+
+.nav-right {
+	float: right !important;
+	text-align: right;
+}
+
+.nav-right,
+.nav-left {
+	display: inline-block;
+}
+
+.nav-right li a,
+.nav-left li a {
+	line-height: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+	.nav-left li a {
+		padding-right: 60px !important;
+	}
+
+	.nav-right li a {
+		padding-left: 50px !important;
+	}
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.nav-left li a {
+		padding-right: 40px !important;
+	}
+
+	.nav-right li a {
+		padding-left: 35px !important;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 851px) {
+	.nav-left li a {
+		padding-right: 33px !important;
+	}
+
+	.nav-right li a {
+		padding-left: 20px !important;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.nav-left li a {
+		padding-right: 15px !important;
+	}
+
+	.nav-right li a {
+		padding-left: 5px !important;
+	}
+
+}
+
+
+
+.nav-right li a {
+	padding-left: 10px;
+}
+
+div#main-menu-2 {
+	background-color: #49a8b1;
+	margin-top: -50px;
+	padding-top: 50px;
+	z-index: -1;
+	text-align: center;
+}
+
+div#main-menu-2 ul li {
+	border-bottom: 1px solid rgba(27,36,98,.5);
+}
+
+div#main-menu-2 ul li a {
+	font-size: 24px;
+	padding: 20px 15px;
+
+}
+
+
+
+
+/* HOME PAGE SLIDER */
+
+.flexslider {
+	margin: 70px 15px 60px 25px;
+	border: none;
+}
+
+@media screen and (min-width: 1200px) {
+	.flexslider {
+		margin: 70px 40px 60px 25px;
+	}
+}
+
+.intro-slider {
+	position: relative;
+}
+
+.slider-frame {
+	position: absolute;
+	z-index: 999;
+	margin-top: 40px;
+	padding-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	#content-home-top {
+		padding: 25px;
+	}
+}
+
+
+
+/* END HOME PAGE SLIDER */
+
+
+
+/* PAGES and SECTIONS */
+
+#content-home-bottom {
+	background-color: #49a8b1;
+	padding-top: 20px;
+}
+
+section#about,
+section#books,
+section#apps,
+section#musical,
+section#fun-stuff {
+	padding: 50px 0 20px;
+}
+
+.about-text h1,
+#books h1,
+#apps h1,
+#musical h1,
+#fun-stuff h1 {
+	margin-top: 0;
+}
+
+section#about article {
+	padding: 15px 0 0;
+}
+
+@media screen and (max-width: 991px) {
+	.about-text h1,
+	#books h1,
+	#apps h1,
+	#musical h1 {
+		margin-top: 25px;
+		text-align: center;
+	}
+}
+
+.about-text p {
+	line-height: 22px;
+}
+
+section#about hr,
+section#books hr,
+section#apps hr,
+section#fun-stuff hr {
+	border-top: 2px solid rgba(37,26,98,.5);
+}
+#books p {
+	line-height: 26px;
+}
+
+#app-store-div {
+	padding: 15px 0;
+}
+
+section#apps h1,
+section#musical h1 {
+	font-size: 46px;
+}
+
+.buy-links {
+	text-align: center;
+}
+
+.buy-now {	
+	padding: 35px 0 20px;
+	text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+	.buy-now,
+	.buy-links {
+		text-align: left;
+	}
+}
+
+.buy-links-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.buy-links-list li {
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+#terms,
+#privacy,
+#contact {
+	padding: 25px 0;
+}
+
+.book-thumbs {
+	padding-top: 40px;
+}
+
+/* FUN STUFF */
+
+.activity-links {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	section#fun-stuff {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.activity-links {
+		padding-top: 33px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.activity-links {
+		padding-top: 8px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.activity-links {
+		padding-top: 134px;
+	}
+}
+
+
+
+
+
+/* CONTACT PAGE */
+
+#contact {
+	font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+	line-height: 22px;
+}
+
+section h1,
+section h4 {
+    font-family: 'Love Ya Like A Sister', cursive !important;
+}
+
+
+
+/* FOOTER */
+
+footer {
+	padding: 25px;
+}
+
+#footer {
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: 22px;
+	color: #251a62;
+	height:60px;
+	padding-top: 5px;
+}
+
+#footer a {
+	color: #251a62;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration:none;
+}
+
+.legal {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#footer {
+		font-size: small;
+	}
+
+	.legal {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	#rights-reserved {
+		font-size: small;
+	}
+}
